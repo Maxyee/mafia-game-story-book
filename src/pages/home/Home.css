@@ -2,3 +2,15 @@
     background-color: #282c34;
     color: white;
 }
+
+.mafiaOne{
+    background-image: url('../../assets/mafiaOne.jpg');
+}
+
+.mafiaTwo{
+    background-image: url('../../assets/mafiaTwo.jpg');
+}
+
+.mafiaThree{
+    background-image: url('../../assets/mafiaThree.jpg');
+}
