@@ -1,8 +1,14 @@
 import React from 'react';
 
 function Header(){
+
+  const header = {
+    //backgroundColor: 'black',
+    height: '50px',
+  }
+
   return (
-    <div className="header">
+    <div style={header}>
         <h1>This is header</h1>
     </div>
   );
