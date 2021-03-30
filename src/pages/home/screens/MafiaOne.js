@@ -3,7 +3,7 @@ import React from 'react';
 function MafiaOne(){
   return (
     <div className="mafiaOne" style={{height:'500px'}}>
-        <h1>Mafia One Component</h1>
+        <h1>please slide to top</h1>
     </div>
   );
 }
