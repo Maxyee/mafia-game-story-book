@@ -3,7 +3,6 @@ import React from 'react';
 function Header(){
 
   const header = {
-    //backgroundColor: 'black',
     height: '50px',
   }
 
