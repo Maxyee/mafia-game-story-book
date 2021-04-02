@@ -2,22 +2,18 @@ import Home from './pages/home/Home';
 import Header from './constants/Header';
 import Footer from './constants/Footer';
 import {Container, Row} from 'react-bootstrap';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-        <Container>
-          <Row>
-            <Header/>
-          </Row>
-          <Row>
-            <Home/>
-          </Row>
-          <Row>
-            <Footer/>
-          </Row>
-        </Container>
-    </div>
+    <Router>
+      <div className="App">
+          <Switch>
+              <Route exact path="/" component={Home} />
+          </Switch>
+          
+      </div>
+    </Router>
   );
 }
 
