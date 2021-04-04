@@ -1,5 +1,6 @@
 import React from 'react';
 import SlideToggle from "react-slide-toggle";
+import {Button} from 'react-bootstrap';
 
 function MafiaTwo(){
   return (
@@ -8,9 +9,10 @@ function MafiaTwo(){
         <SlideToggle>
           {({ toggle, setCollapsibleElement }) => (
             <div className="my-collapsible">
-              <button className="my-collapsible__toggle" onClick={toggle}>
+              {/* <button className="my-collapsible__toggle" onClick={toggle} style={{textAlign:'center'}}>
                 toggle
-              </button>
+              </button> */}
+              <Button onClick={toggle} variant="primary">Primary</Button>{' '}
               <div className="my-collapsible__content" ref={setCollapsibleElement}>
                 <div className="my-collapsible__content-inner">Collapsible content</div>
               </div>
