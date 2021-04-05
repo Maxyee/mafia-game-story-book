@@ -7,7 +7,7 @@ function Footer(){
 
   return (
     <div style={footer}>
-        <h1>This is footer</h1>
+        <h3>Developed by Md Julhas Hossain</h3>
     </div>
   );
 }

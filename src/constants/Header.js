@@ -8,7 +8,7 @@ function Header(){
 
   return (
     <div style={header}>
-        <h1>This is header</h1>
+        <h3>Mafia Story Book</h3>
     </div>
   );
 }
