@@ -7,26 +7,18 @@ function Mafia2(){
         <Container className="mafia-menu">
             <Row>
                 <Col>
+                    <h1>MAIN MENU</h1>
                     <Nav defaultActiveKey="/home" className="flex-column">
-                    <Nav.Link href="/home">Active</Nav.Link>
-                    <Nav.Link eventKey="link-1">Link</Nav.Link>
-                    <Nav.Link eventKey="link-2">Link</Nav.Link>
-                    <Nav.Link eventKey="disabled" disabled>
-                        Disabled
-                    </Nav.Link>
+                        <Nav.Link href="/home">THE STORY</Nav.Link>
+                        <Nav.Link eventKey="link-1">THE BETRAYAL OF JIMMY</Nav.Link>
+                        <Nav.Link eventKey="link-2">JIMMY'S VENDETTA</Nav.Link>
+                        <Nav.Link eventKey="link-2">JOE'S ADVENTURES</Nav.Link>
+                        <Nav.Link eventKey="link-2">DOWNLOADABLE CONTENT</Nav.Link>
+                        <Nav.Link eventKey="link-2">EXTRAS</Nav.Link>
+                        <Nav.Link eventKey="link-2">OPTIONS</Nav.Link>
+                        <Nav.Link eventKey="link-2">EXIT</Nav.Link>
                     </Nav>
                 </Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
-                <Col>1 of 1</Col>
             </Row>
         </Container>
     )
