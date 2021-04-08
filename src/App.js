@@ -3,7 +3,7 @@ import Header from './constants/Header';
 import Footer from './constants/Footer';
 import Mafia2 from './pages/mafia/Mafia2';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

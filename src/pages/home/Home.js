@@ -9,18 +9,11 @@ import MafiaThree from './screens/MafiaThree';
 
 function Home(){
   return (
-    <div className="home">
-        <Container>
-          <Row>
-            <FlipPage width="auto">
-              <MafiaOne/>
-              <MafiaTwo/>
-              <MafiaThree/>
-            </FlipPage>
-          </Row>
-        </Container>
-    </div>
-    
+    <FlipPage width="auto">
+      <MafiaOne/>
+      <MafiaTwo/>
+      <MafiaThree/>
+    </FlipPage>    
   );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 
 function Footer(){
   const footer = {
@@ -6,9 +7,14 @@ function Footer(){
   }
 
   return (
-    <div style={footer}>
-        <h3>Developed by Md Julhas Hossain</h3>
-    </div>
+    <Container>
+      <Row>
+        <div style={footer}>
+          <h6>Developed by Md Julhas Hossain</h6>
+        </div>
+      </Row>
+    </Container>
+    
   );
 }
 

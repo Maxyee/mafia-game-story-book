@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 
 function Header(){
 
@@ -7,9 +8,14 @@ function Header(){
   }
 
   return (
-    <div style={header}>
-        <h3>Mafia Story Book</h3>
-    </div>
+    <Container>
+      <Row>
+      <div style={header}>
+          <h6>Mafia Story Book</h6>
+      </div>
+      </Row>
+    </Container>
+    
   );
 }
 
